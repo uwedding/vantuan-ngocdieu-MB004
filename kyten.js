@@ -229,7 +229,7 @@ function saveSignature(userId, userCard, scale) {
   const signatureData = exportCanvas.toDataURL("image/png");
 
   const GOOGLE_SCRIPT_URL_THAM_DU =
-    "https://script.google.com/macros/s/AKfycbwqI2rDyiHiFPCzS2xYz99a-QnrPA_im_fnuMvCmUhwrP0IpG9eyaqVOgpeG94Db3f8Sw/exec";
+    "https://script.google.com/macros/s/AKfycby3aNWoW3vRf7QjJpdpx9FYAY8QtqEupiGPHO7z3u2LN8GImWsLKeAJZMc8Ty3VrcOM0w/exec";
 
   const data = {
     signature: signatureData,
