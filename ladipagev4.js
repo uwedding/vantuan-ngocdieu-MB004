@@ -1,5 +1,6 @@
 !(function () {
   "use strict";
+
   function t(t, e) {
     e
       ? ((d[0] =
@@ -44,6 +45,7 @@
       (this.first = !0),
       (this.is224 = t);
   }
+
   function i(e, i, a) {
     var n,
       o = typeof e;
@@ -685,7 +687,9 @@
     (Object.keys = (function () {
       "use strict";
       var t = Object.prototype.hasOwnProperty,
-        e = !{ toString: null }.propertyIsEnumerable("toString"),
+        e = !{
+          toString: null,
+        }.propertyIsEnumerable("toString"),
         i = [
           "toString",
           "toLocaleString",
@@ -962,7 +966,9 @@ var equalsLadiPage = function (t, e) {
     APP_RUNTIME_PREFIX: "_runtime",
     SCRIPT_LADI_FONT: "ladi-font",
     SCRIPT_LADI_VARIABLE: "ladi-variable",
-    META_VERSION: { two: 2 },
+    META_VERSION: {
+      two: 2,
+    },
     OPTIMIZE_EXCEPT_EVENT_DATA_KEY_LIST: [
       "custom_style",
       "custom_css",
@@ -1255,7 +1261,10 @@ var equalsLadiPage = function (t, e) {
       minute: "minute",
       seconds: "seconds",
     },
-    CAROUSEL_DISPLAY_TYPE: { vertical: "vertical", horizontal: "horizontal" },
+    CAROUSEL_DISPLAY_TYPE: {
+      vertical: "vertical",
+      horizontal: "horizontal",
+    },
     CAROUSEL_INDICATORS_TYPE_TYPE: {
       none: "none",
       circle: "circle",
@@ -1266,7 +1275,10 @@ var equalsLadiPage = function (t, e) {
       type_abab: "type_abab",
       type_abba: "type_abba",
     },
-    VIDEO_TYPE: { youtube: "youtube", direct: "direct" },
+    VIDEO_TYPE: {
+      youtube: "youtube",
+      direct: "direct",
+    },
     BACKGROUND_STYLE: {
       solid: "solid",
       gradient: "gradient",
@@ -1284,7 +1296,10 @@ var equalsLadiPage = function (t, e) {
       ftp: "FTP",
       other: "OTHER",
     },
-    SECTION_TYPE: { default: "DEFAULT", global: "GLOBAL" },
+    SECTION_TYPE: {
+      default: "DEFAULT",
+      global: "GLOBAL",
+    },
     FUNNELX_DISPLAY_SETTING_SHOW_TYPE: {
       time: "time",
       leave_page: "leave_page",
@@ -1313,8 +1328,15 @@ var equalsLadiPage = function (t, e) {
       voice: "OTP_VOICE",
       zns: "OTP_ZNS",
     },
-    STATUS_SEND: { capture: 1, otp: 1, sendform: 2 },
-    PUBLISH_STYLE: { desktop_min_width: 768, mobile_small_min_width: 320 },
+    STATUS_SEND: {
+      capture: 1,
+      otp: 1,
+      sendform: 2,
+    },
+    PUBLISH_STYLE: {
+      desktop_min_width: 768,
+      mobile_small_min_width: 320,
+    },
     ANIMATED_LIST: [
       "rotate-1",
       "rotate-2",
@@ -1340,8 +1362,14 @@ var equalsLadiPage = function (t, e) {
       bottom_center: "bottom_center",
       bottom_right: "bottom_right",
     },
-    COLLECTION_TYPE: { carousel: "carousel", readmore: "readmore" },
-    COLLECTION_LIST_TYPE: { horizontal: "horizontal", vertical: "vertical" },
+    COLLECTION_TYPE: {
+      carousel: "carousel",
+      readmore: "readmore",
+    },
+    COLLECTION_LIST_TYPE: {
+      horizontal: "horizontal",
+      vertical: "vertical",
+    },
     INPUT_TYPE: {
       tel: "tel",
       password: "password",
@@ -1370,14 +1398,23 @@ var equalsLadiPage = function (t, e) {
       form_urlencoded: "X_WWW_FORM_URLENCODED",
       json: "JSON",
     },
-    SORT_BY_TYPE: { asc: "asc", desc: "desc" },
+    SORT_BY_TYPE: {
+      asc: "asc",
+      desc: "desc",
+    },
     PRODUCT_VARIANT_TYPE: {
       combined: "combined",
       combobox: "combobox",
       label: "label",
     },
-    PRODUCT_VARIANT_OPTION_TYPE: { color: 1, image: 2 },
-    PRODUCT_VARIANT_TITLE: { left: "left", top: "top" },
+    PRODUCT_VARIANT_OPTION_TYPE: {
+      color: 1,
+      image: 2,
+    },
+    PRODUCT_VARIANT_TITLE: {
+      left: "left",
+      top: "top",
+    },
     FORM_THANKYOU_TYPE: {
       default: "default",
       url: "url",
@@ -1433,7 +1470,10 @@ var equalsLadiPage = function (t, e) {
     },
     FORM_UPLOAD_FILE_LENGTH: 20,
     FORM_UPLOAD_FILE_SIZE: 25,
-    CART_LAYOUT: { editable: "editable", viewonly: "viewonly" },
+    CART_LAYOUT: {
+      editable: "editable",
+      viewonly: "viewonly",
+    },
     WIDTH_SECTION_RESIZE: {},
     RESIZE_ADD_PIXEL: 300,
     RESIZE_ADD_PIXEL_THUMB: 50,
@@ -1459,14 +1499,20 @@ var equalsLadiPage = function (t, e) {
       right_middle: "right_middle",
       right_bottom: "right_bottom",
     },
-    TOOLTIP_SIZE: { small: "small", medium: "medium", big: "big" },
+    TOOLTIP_SIZE: {
+      small: "small",
+      medium: "medium",
+      big: "big",
+    },
     OPTION_OTHER_KEY: "LADIPAGE_OTHER",
     STORY_PAGE: {
       horizontal: "horizontal",
       vertical: "vertical",
       none: "none",
     },
-    COMBOBOX_TYPE: { delivery_method: "delivery_method" },
+    COMBOBOX_TYPE: {
+      delivery_method: "delivery_method",
+    },
     PRODUCT_TYPE: {
       event: "Event",
       service: "Service",
@@ -1500,8 +1546,12 @@ var equalsLadiPage = function (t, e) {
       current_element_mouse_down_gallery_view_position_x: 0,
       current_element_mouse_down_gallery_view_position_y: 0,
       current_element_mouse_down_gallery_view_diff: 40,
-      country_state_sort: { VN: ["201", "202", "224", "220", "203"] },
-      location_state_sort: { VN: ["HN", "SG", "HP", "CT", "DN"] },
+      country_state_sort: {
+        VN: ["201", "202", "224", "220", "203"],
+      },
+      location_state_sort: {
+        VN: ["HN", "SG", "HP", "CT", "DN"],
+      },
       scroll_show_popup: {},
       scroll_depth: [],
       scroll_to_section: {},
@@ -1603,7 +1653,10 @@ var LadiFormulaData = {},
         isFunctionLadiPage(e) &&
         (t()
           ? e()
-          : LadiPageQueueCommandList.push({ callback1: t, callback2: e }));
+          : LadiPageQueueCommandList.push({
+              callback1: t,
+              callback2: e,
+            }));
     },
   };
 (LadiPageScriptV2.prototype.frequencyFormDataByKey = function (t) {
@@ -1641,7 +1694,10 @@ var LadiFormulaData = {},
     );
   if (t.addValue >= 1)
     if (
-      ((i = this.frequencyFormDataByKey({ getValue: !0, key: t.key })),
+      ((i = this.frequencyFormDataByKey({
+        getValue: !0,
+        key: t.key,
+      })),
       (i += t.addValue),
       "session" == t.key)
     )
@@ -1650,7 +1706,10 @@ var LadiFormulaData = {},
     else {
       var n = new Date();
       n.setTime(n.getTime() + 24 * t.expires * 60 * 60 * 1e3),
-        (a[e] = { e: Math.floor(n.getTime() / 1e3), v: i }),
+        (a[e] = {
+          e: Math.floor(n.getTime() / 1e3),
+          v: i,
+        }),
         window
           .ladi("LADI_FFD")
           .set_cookie(Base64.encode(JSON.stringify(a)), 365);
@@ -1692,7 +1751,11 @@ var LadiFormulaData = {},
     ) {
       var d = o[r],
         l = d.getAttribute("data-global-id");
-      isEmptyLadiPage(l) || n.push({ id: d.id, data_global_id: l });
+      isEmptyLadiPage(l) ||
+        n.push({
+          id: d.id,
+          data_global_id: l,
+        });
     }
     var s = function (o) {
         isObjectLadiPage(o) &&
@@ -1740,9 +1803,16 @@ var LadiFormulaData = {},
             i.runtime.hasOwnProperty("version") &&
             o.forEach(function (t) {
               var e = i.runtime.cdn_url + t + ".js?v=" + i.runtime.version;
-              i.loadScript(e, { defer: !0 }, null, function (t) {
-                i.runAfterLocation();
-              });
+              i.loadScript(
+                e,
+                {
+                  defer: !0,
+                },
+                null,
+                function (t) {
+                  i.runAfterLocation();
+                }
+              );
             });
       };
     n.forEach(function (t) {
@@ -2056,7 +2126,9 @@ var LadiFormulaData = {},
         }
         delete r.runtime.tmp.dimension_element_new,
           r.runtime.tmp.is_window_resize ||
-            r.fireEvent(window, "resize", { set_viewport: !1 });
+            r.fireEvent(window, "resize", {
+              set_viewport: !1,
+            });
       }
     }
   }),
@@ -2123,19 +2195,31 @@ var LadiFormulaData = {},
             i &&
             a.postMessageWindow(
               n.contentWindow,
-              { event: "command", func: "unMute", args: [] },
+              {
+                event: "command",
+                func: "unMute",
+                args: [],
+              },
               "*"
             ),
           !d &&
             i &&
             a.postMessageWindow(
               n.contentWindow,
-              { event: "command", func: "mute", args: [] },
+              {
+                event: "command",
+                func: "mute",
+                args: [],
+              },
               "*"
             ),
           a.postMessageWindow(
             n.contentWindow,
-            { event: "command", func: o, args: [] },
+            {
+              event: "command",
+              func: o,
+              args: [],
+            },
             "*"
           ));
       }
@@ -2190,7 +2274,11 @@ var LadiFormulaData = {},
                 a ||
                   c.postMessageWindow(
                     t.contentWindow,
-                    { event: "command", func: "unMute", args: [] },
+                    {
+                      event: "command",
+                      func: "unMute",
+                      args: [],
+                    },
                     "*"
                   );
               }
@@ -2611,7 +2699,9 @@ var LadiFormulaData = {},
     var t = this,
       e = t.runtime.thankyou_page;
     if (isObjectLadiPage(e)) {
-      var i = { is_custom: !0 };
+      var i = {
+        is_custom: !0,
+      };
       (i.conversion_name = e.event_value),
         (i.google_ads_conversion = e.event_id),
         (i.google_ads_label = e.event_label),
@@ -2678,7 +2768,9 @@ var LadiFormulaData = {},
       )
         "none" != getComputedStyle(i[a]).display &&
           ((e.runtime.tmp.is_resize_all = !0),
-          window.ladi(i[a].id).show(!0, { checkHidePopupOther: !1 }));
+          window.ladi(i[a].id).show(!0, {
+            checkHidePopupOther: !1,
+          }));
       e.runResizeSectionBackground();
     } catch (t) {}
     e.runtime.tmp.timeout_is_resize_all_id = e.runTimeout(function () {
@@ -2824,7 +2916,10 @@ var LadiFormulaData = {},
               2 != (e = e.removeSpace()).length ||
                 isEmptyLadiPage(e[0]) ||
                 isEmptyLadiPage(e[1]) ||
-                s.push({ name: e[0], value: e[1] });
+                s.push({
+                  name: e[0],
+                  value: e[1],
+                });
             }),
               s.forEach(function (t) {
                 window.ladi(t.name).set_cookie(t.value, l);
@@ -2896,7 +2991,9 @@ var LadiFormulaData = {},
             ((p = !0),
             t.loadScript(
               t.runtime.tracking_global_url + "?v=" + Date.now(),
-              { defer: !0 },
+              {
+                defer: !0,
+              },
               null,
               function () {
                 t.runtime.tmp.tracking_global_loaded = !0;
@@ -2979,7 +3076,9 @@ var LadiFormulaData = {},
                     a.is_return_string
                       ? n.runtime.tmp.runTrackingAnalytics(
                           "ConversionApiString",
-                          { data: d }
+                          {
+                            data: d,
+                          }
                         )
                       : n.runtime.tmp.runTrackingAnalytics("ConversionApi", {
                           data: d,
@@ -3007,11 +3106,15 @@ var LadiFormulaData = {},
                       a.is_return_string
                         ? n.runtime.tmp.runTrackingAnalytics(
                             "TikTokConversionApiString",
-                            { data: d }
+                            {
+                              data: d,
+                            }
                           )
                         : n.runtime.tmp.runTrackingAnalytics(
                             "TikTokConversionApi",
-                            { data: d }
+                            {
+                              data: d,
+                            }
                           ),
                         delete d[t].ttp,
                         delete d[t].ttclid,
@@ -3081,7 +3184,9 @@ var LadiFormulaData = {},
     }
   }),
   (LadiPageScriptV2.prototype.getLinkUTMRedirect = function (t, e) {
-    var i = this.createTmpElement("a", "", { href: t }),
+    var i = this.createTmpElement("a", "", {
+        href: t,
+      }),
       a = this.getURLSearchParams(e, null, !1),
       n = [
         "utm_source",
@@ -3208,7 +3313,9 @@ var LadiFormulaData = {},
   (LadiPageScriptV2.prototype.getVideoId = function (t, e) {
     if (isEmptyLadiPage(e)) return e;
     if (t == this.const.VIDEO_TYPE.youtube) {
-      var i = this.createTmpElement("a", "", { href: e });
+      var i = this.createTmpElement("a", "", {
+        href: e,
+      });
       -1 != e.toLowerCase().indexOf("watch")
         ? (e = this.getURLSearchParams(i.search, "v", !1))
         : -1 != e.toLowerCase().indexOf("embed/")
@@ -3289,7 +3396,9 @@ var LadiFormulaData = {},
               options: o,
               callback_id: d,
             },
-            action: { type: "send_request_with_option" },
+            action: {
+              type: "send_request_with_option",
+            },
           })
         );
       }
@@ -4054,9 +4163,12 @@ var LadiFormulaData = {},
               ["start_date", "end_date", "created_at", "updated_at"].indexOf(
                 c
               ) &&
-              ((g = LadiPageScript.convertDataDate({ date: u.product[c] }, [
-                "date",
-              ])),
+              ((g = LadiPageScript.convertDataDate(
+                {
+                  date: u.product[c],
+                },
+                ["date"]
+              )),
               (m = g.date),
               (e = m),
               (t = !0)),
@@ -4081,7 +4193,9 @@ var LadiFormulaData = {},
                     t.src.startsWith("http://") ||
                     t.src.startsWith("https://") ||
                     t.src.startsWith("//")
-                      ? e.push({ src: t.src })
+                      ? e.push({
+                          src: t.src,
+                        })
                       : e.push({
                           src:
                             "https://" + l.const.STATIC_W_DOMAIN + "/" + t.src,
@@ -4101,9 +4215,12 @@ var LadiFormulaData = {},
             if ((-1 != r && ((y = u.product.variants[r]), (p = y)), !t))
               if (-1 != r)
                 if (-1 != ["variant_start_date", "variant_end_date"].indexOf(c))
-                  (g = LadiPageScript.convertDataDate({ date: y[c] }, [
-                    "date",
-                  ])),
+                  (g = LadiPageScript.convertDataDate(
+                    {
+                      date: y[c],
+                    },
+                    ["date"]
+                  )),
                     (m = g.date),
                     (e = m);
                 else if (-1 != ["sku", "variant_timezone"].indexOf(c))
@@ -4173,14 +4290,25 @@ var LadiFormulaData = {},
           (m = u.product[c]),
             isBooleanLadiPage(m)
               ? (m = m ? l.const.LANG.OPTION_TRUE : l.const.LANG.OPTION_FALSE)
-              : ((g = LadiPageScript.convertDataDate({ date: m }, ["date"])),
+              : ((g = LadiPageScript.convertDataDate(
+                  {
+                    date: m,
+                  },
+                  ["date"]
+                )),
                 (m = g.date)),
             (e = m);
         !i && isFunctionLadiPage(d) && d(e);
       };
       _();
     }
-    return t ? { product: u, variant: p, value: e } : e;
+    return t
+      ? {
+          product: u,
+          variant: p,
+          value: e,
+        }
+      : e;
   }),
   (LadiPageScriptV2.prototype.generateVariantProduct = function (
     t,
@@ -4578,7 +4706,9 @@ var LadiFormulaData = {},
                   isFunctionLadiPage(l) && l(s);
               } else A();
             },
-            T = { product_id: _ },
+            T = {
+              product_id: _,
+            },
             w = null,
             S = "POST";
           return (
@@ -4587,8 +4717,9 @@ var LadiFormulaData = {},
                 var t = "",
                   e = c.const.API_LADISALE_SHOW_PRODUCT;
                 m == c.const.FORM_CONFIG_TYPE.ladisales
-                  ? (((w = { "Content-Type": "application/json" })["Store-Id"] =
-                      g),
+                  ? (((w = {
+                      "Content-Type": "application/json",
+                    })["Store-Id"] = g),
                     (t = JSON.stringify([L, m, g])),
                     (T = JSON.stringify(T)))
                   : m == c.const.FORM_CONFIG_TYPE.wordpress
@@ -4598,15 +4729,22 @@ var LadiFormulaData = {},
                       "/ladipage/api?action=product_info&product_id=" +
                       _),
                     (T = null))
-                  : ((w = { "Content-Type": "application/json" }),
+                  : ((w = {
+                      "Content-Type": "application/json",
+                    }),
                     (e = c.const.API_SHOW_PRODUCT),
-                    (T = { form_account_id: p, product_id: _ }),
+                    (T = {
+                      form_account_id: p,
+                      product_id: _,
+                    }),
                     (t = JSON.stringify([T.form_account_id, L, m])),
                     (T = JSON.stringify(T))),
                   !isEmptyLadiPage(t) &&
                   isObjectLadiPage(c.runtime.tmp.product_data_website) &&
                   isObjectLadiPage(c.runtime.tmp.product_data_website[t])
-                    ? b({ data: c.runtime.tmp.product_data_website[t] })
+                    ? b({
+                        data: c.runtime.tmp.product_data_website[t],
+                      })
                     : c.sendRequest(S, e, T, !0, w, function (t, e, i) {
                         if (i.readyState == XMLHttpRequest.DONE)
                           try {
@@ -4618,7 +4756,10 @@ var LadiFormulaData = {},
                       });
               } else {
                 var i = function (t) {
-                    isNullLadiPage(t) || b({ data: t });
+                    isNullLadiPage(t) ||
+                      b({
+                        data: t,
+                      });
                   },
                   a = LadiPage.getProductInfo(p, _, function (t) {
                     i(t);
@@ -5069,7 +5210,9 @@ var LadiFormulaData = {},
               p = r.runtime.tmp.getLabelValue,
               m = function (t) {
                 r.runtime.tmp.clickLabelProductChangeCallback(t, function (t) {
-                  s({ target: t });
+                  s({
+                    target: t,
+                  });
                 });
               };
             r.showParentVisibility(e, function () {
@@ -5262,16 +5405,24 @@ var LadiFormulaData = {},
                 t.action_type == r.const.ACTION_TYPE.action &&
                   (t.type == r.const.DATA_ACTION_TYPE.popup_cart &&
                     (window.ladi("POPUP_CART").show(),
-                    r.runEventTracking(e.id, { is_form: !1 })),
+                    r.runEventTracking(e.id, {
+                      is_form: !1,
+                    })),
                   t.type == r.const.DATA_ACTION_TYPE.popup_checkout &&
                     (r.runtime.shopping_third_party
                       ? r.getThirdPartyCheckoutUrl(!0, null, {
-                          event: { target: e },
+                          event: {
+                            target: e,
+                          },
                         })
-                      : window
-                          .ladi("POPUP_CHECKOUT")
-                          .show(!1, { event: { target: e } }),
-                    r.runEventTracking(e.id, { is_form: !1 })));
+                      : window.ladi("POPUP_CHECKOUT").show(!1, {
+                          event: {
+                            target: e,
+                          },
+                        }),
+                    r.runEventTracking(e.id, {
+                      is_form: !1,
+                    })));
               });
             };
             e.setAttribute("data-click", !1),
@@ -5344,7 +5495,10 @@ var LadiFormulaData = {},
               }
             }
             var x = L.getElementsByClassName("ladi-collection-content")[0],
-              B = { className: I[0].className, innerHTML: I[0].innerHTML };
+              B = {
+                className: I[0].className,
+                innerHTML: I[0].innerHTML,
+              };
             a && I[0].parentElement.removeChild(I[0]);
             for (
               var F = x.getElementsByClassName("ladi-collection-page");
@@ -5369,7 +5523,9 @@ var LadiFormulaData = {},
                 var g = r.copy(r.runtime.eventData[t[m].id]);
                 o.is_generate_template && (g = o.getEventData(t[m].id)),
                   isEmptyLadiPage(g) ||
-                    (r.runAnimationDoc(t[m], g, { element_type: g.type }),
+                    (r.runAnimationDoc(t[m], g, {
+                      element_type: g.type,
+                    }),
                     (g["option.product_type"] = l),
                     (g["option.ladisale_store_id"] = s),
                     (g["option.product_tag_id"] = c),
@@ -5408,7 +5564,9 @@ var LadiFormulaData = {},
                   _.products[k].options.length < N;
 
                 )
-                  _.products[k].options.push({ is_tmp: !0 });
+                  _.products[k].options.push({
+                    is_tmp: !0,
+                  });
                 Y(j, _.products[k], !0, null, !1, !1);
               }
             b && (q.classList.add("last"), T && q.classList.add("not-full")),
@@ -5595,7 +5753,10 @@ var LadiFormulaData = {},
           return (
             isObjectLadiPage(v) &&
               isArrayLadiPage(v.products) &&
-              ((t = { products: v.products, total_record: v.total_record }),
+              ((t = {
+                products: v.products,
+                total_record: v.total_record,
+              }),
               isEmptyLadiPage(o.runtime.tmp.product_info[d]) &&
                 (o.runtime.tmp.product_info[d] = {}),
               t.products.forEach(function (t) {
@@ -5816,7 +5977,10 @@ var LadiFormulaData = {},
               } else E();
               var w;
             },
-            A = { product_tag_ids: s, limit: e };
+            A = {
+              product_tag_ids: s,
+              limit: e,
+            };
           isEmptyLadiPage(p) ? (A.type = "group") : (A.paged = i),
             isEmptyLadiPage(m) ||
               isEmptyLadiPage(g) ||
@@ -5838,8 +6002,9 @@ var LadiFormulaData = {},
                       l,
                       d,
                     ])),
-                    ((b = { "Content-Type": "application/json" })["Store-Id"] =
-                      l),
+                    ((b = {
+                      "Content-Type": "application/json",
+                    })["Store-Id"] = l),
                     (A = JSON.stringify(A)))
                   : d == o.const.FORM_CONFIG_TYPE.wordpress
                   ? ((T = "GET"),
@@ -5852,9 +6017,15 @@ var LadiFormulaData = {},
                       "&limit=" +
                       e),
                     (A = null))
-                  : ((b = { "Content-Type": "application/json" }),
+                  : ((b = {
+                      "Content-Type": "application/json",
+                    }),
                     (n = o.const.API_COLLECTION_PRODUCT),
-                    (A = { form_account_id: r, tags: s, limit: e }),
+                    (A = {
+                      form_account_id: r,
+                      tags: s,
+                      limit: e,
+                    }),
                     isEmptyLadiPage(P) ? (A.page = i) : (A.page_info = P),
                     (a = JSON.stringify([
                       A.form_account_id,
@@ -5868,7 +6039,9 @@ var LadiFormulaData = {},
                   !isEmptyLadiPage(a) &&
                   isObjectLadiPage(o.runtime.tmp.product_data_website) &&
                   isObjectLadiPage(o.runtime.tmp.product_data_website[a])
-                    ? L({ data: o.runtime.tmp.product_data_website[a] })
+                    ? L({
+                        data: o.runtime.tmp.product_data_website[a],
+                      })
                     : o.sendRequest(T, n, A, !0, b, function (t, e, i) {
                         if (i.readyState == XMLHttpRequest.DONE)
                           try {
@@ -5881,7 +6054,9 @@ var LadiFormulaData = {},
               } else {
                 var c = function (t) {
                     if (isArrayLadiPage(t) && t.length > 1) {
-                      var e = { products: [] };
+                      var e = {
+                        products: [],
+                      };
                       t.forEach(function (t) {
                         if (
                           isNullLadiPage(t.product) &&
@@ -5894,7 +6069,9 @@ var LadiFormulaData = {},
                           );
                         isNullLadiPage(t.product) || e.products.push(t.product);
                       }),
-                        L({ data: e });
+                        L({
+                          data: e,
+                        });
                     }
                   },
                   u = LadiPage.mapping_attribute_option_product_id(
@@ -5962,9 +6139,14 @@ var LadiFormulaData = {},
     if (isArrayLadiPage(n)) return i.copy(n);
     if (!0 !== n) {
       var o = i.const.API_LADISALE_PRODUCT_SHOW_LIST,
-        r = { product_variants_ids: t, ladi_uid: $rootScope.store.ladi_uid };
+        r = {
+          product_variants_ids: t,
+          ladi_uid: $rootScope.store.ladi_uid,
+        };
       i.runtime.tmp.list_product_ladisales_by_ids[a] = !0;
-      var d = { "Content-Type": "application/json" };
+      var d = {
+        "Content-Type": "application/json",
+      };
       i.runLimitRequest(20, function () {
         i.sendRequest("POST", o, JSON.stringify(r), !0, d, function (o, r, d) {
           if (d.readyState == XMLHttpRequest.DONE) {
@@ -6906,7 +7088,9 @@ var LadiFormulaData = {},
                     (n >= window.scrollY &&
                       window.scrollY + e.getHeightDevice() >= n)) &&
                     ((e.runtime.scroll_to_section[t] = !0),
-                    e.runEventTracking(t, { is_form: !1 })));
+                    e.runEventTracking(t, {
+                      is_form: !1,
+                    })));
             }
           }),
           e.runtime.isClient && document.body.clientHeight > 0)
@@ -6939,18 +7123,28 @@ var LadiFormulaData = {},
                 ? e.runLadiPageCommand(function (n) {
                     if ("ViewContent" == n.name && t >= n.scrollPercent)
                       return (
-                        (a = [{ name: n.name, custom_data: {}, data: i }]),
+                        (a = [
+                          {
+                            name: n.name,
+                            custom_data: {},
+                            data: i,
+                          },
+                        ]),
                         e.runtime.tmp.runActionPopupX({
                           conversion_name: n.name,
                           ttq_data: {},
                           ttq_event_data: i,
-                          action: { type: "run_tracking_ttq" },
+                          action: {
+                            type: "run_tracking_ttq",
+                          },
                         }),
                         e.runtime.tmp.runActionPopupX({
                           type: "tiktok",
                           key: "events",
                           keyData: a,
-                          action: { type: "run_conversion_api" },
+                          action: {
+                            type: "run_conversion_api",
+                          },
                         }),
                         !0
                       );
@@ -6963,7 +7157,13 @@ var LadiFormulaData = {},
                       e.runLadiPageCommand(function (n) {
                         if ("ViewContent" == n.name && t >= n.scrollPercent)
                           return (
-                            (a = [{ name: n.name, custom_data: {}, data: i }]),
+                            (a = [
+                              {
+                                name: n.name,
+                                custom_data: {},
+                                data: i,
+                              },
+                            ]),
                             window.ttq.track(n.name, {}, i),
                             e.runConversionApi("tiktok", "events", a),
                             !0
@@ -7112,8 +7312,12 @@ var LadiFormulaData = {},
     ) {
       o.runtime.tmp.runActionPopupX({
         id: t,
-        dimension: { display: "none" },
-        action: { type: "set_iframe_dimension" },
+        dimension: {
+          display: "none",
+        },
+        action: {
+          type: "set_iframe_dimension",
+        },
       });
     }
     delete this.runtime.tmp.current_default_popup_id;
@@ -7466,8 +7670,14 @@ var LadiFormulaData = {},
             startStr: "+84",
             endStr: "(9|8|7|5|3)[0-9]{8}",
             listRegex: [
-              { str_start: "0", str_input: "0" },
-              { str_start: "\\+84", str_input: "+84" },
+              {
+                str_start: "0",
+                str_input: "0",
+              },
+              {
+                str_start: "\\+84",
+                str_input: "+84",
+              },
             ],
           },
         ],
@@ -7635,7 +7845,10 @@ var LadiFormulaData = {},
             t +
             '" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>';
         })),
-      { template: i, template_body: a }
+      {
+        template: i,
+        template_body: a,
+      }
     );
   }),
   (LadiPageScriptV2.prototype.customScriptDelayInit = function () {
@@ -7648,8 +7861,14 @@ var LadiFormulaData = {},
       return t.runTimeout(t.customScriptDelayInit, 100);
     var e = document.createElement("div");
     [
-      { id: "script_html_head", elm: "head" },
-      { id: "script_html_body", elm: "body" },
+      {
+        id: "script_html_head",
+        elm: "head",
+      },
+      {
+        id: "script_html_body",
+        elm: "body",
+      },
     ].forEach(function (t) {
       try {
         var i = document.getElementById(t.id);
@@ -7667,8 +7886,14 @@ var LadiFormulaData = {},
     if (isObjectLadiPage(t)) {
       var e = this.generateTrackingJS(t);
       [
-        { str: e.template, elm: "head" },
-        { str: e.template_body, elm: "body" },
+        {
+          str: e.template,
+          elm: "head",
+        },
+        {
+          str: e.template_body,
+          elm: "body",
+        },
       ].forEach(function (t) {
         try {
           if (!isEmptyLadiPage(t.str)) {
@@ -7795,14 +8020,20 @@ var LadiFormulaData = {},
                   conversion_name: i.conversion_name,
                   ttq_data: i.data,
                   ttq_event_data: i.ttq_event_data,
-                  action: { type: "run_tracking_ttq" },
+                  action: {
+                    type: "run_tracking_ttq",
+                  },
                 }),
                 o.runtime.tmp.runActionPopupX({
                   type: "tiktok",
                   key: "events",
                   keyData: a,
-                  options: { ttq_identify_data: i.ttq_identify_data },
-                  action: { type: "run_conversion_api" },
+                  options: {
+                    ttq_identify_data: i.ttq_identify_data,
+                  },
+                  action: {
+                    type: "run_conversion_api",
+                  },
                 }))
               : LadiPageQueueCommand.push(
                   function () {
@@ -7865,7 +8096,9 @@ var LadiFormulaData = {},
                   track_name: a.track_name,
                   conversion_name: a.conversion_name,
                   ztrq_data: a.data,
-                  action: { type: "run_tracking_ztrq" },
+                  action: {
+                    type: "run_tracking_ztrq",
+                  },
                 })
               : LadiPageQueueCommand.push(
                   function () {
@@ -7902,7 +8135,9 @@ var LadiFormulaData = {},
           (o.runtime.is_popupx
             ? o.runtime.tmp.runActionPopupX({
                 ttq_identify_data: S,
-                action: { type: "run_identify_ttq" },
+                action: {
+                  type: "run_identify_ttq",
+                },
               })
             : LadiPageQueueCommand.push(
                 function () {
@@ -7936,7 +8171,10 @@ var LadiFormulaData = {},
               },
               ttq_event_data: T(o.runtime.is_popupx),
             }),
-            w(!0, { track_name: "track", conversion_name: "Purchase" }));
+            w(!0, {
+              track_name: "track",
+              conversion_name: "Purchase",
+            }));
       }
       if (
         ((e.is_click_buy_now || (e.is_open_popup && "POPUP_CHECKOUT" == t)) &&
@@ -7946,7 +8184,10 @@ var LadiFormulaData = {},
             data: {},
             ttq_event_data: T(o.runtime.is_popupx),
           }),
-          w(!0, { track_name: "track", conversion_name: "InitiateCheckout" })),
+          w(!0, {
+            track_name: "track",
+            conversion_name: "InitiateCheckout",
+          })),
         e.is_add_to_cart)
       )
         return (
@@ -7989,7 +8230,10 @@ var LadiFormulaData = {},
                   data: {},
                   ttq_event_data: T(o.runtime.is_popupx),
                 }),
-                w(!0, { track_name: "track", conversion_name: "Contact" }));
+                w(!0, {
+                  track_name: "track",
+                  conversion_name: "Contact",
+                }));
             }));
       if (!isEmptyLadiPage(a)) {
         var O = !1;
@@ -8062,7 +8306,9 @@ var LadiFormulaData = {},
                     conversion_name: e.conversion_name,
                     fbq_data: e.fbq_data,
                     fbq_event_data: e.fbq_event_data,
-                    action: { type: "run_tracking_fbq" },
+                    action: {
+                      type: "run_tracking_fbq",
+                    },
                   })
                 : LadiPageQueueCommand.push(
                     function () {
@@ -8106,7 +8352,9 @@ var LadiFormulaData = {},
                       type: "facebook",
                       key: "events",
                       keyData: l,
-                      action: { type: "run_conversion_api" },
+                      action: {
+                        type: "run_conversion_api",
+                      },
                     })
                   : o.runConversionApi("facebook", "events", l);
             })),
@@ -8137,7 +8385,9 @@ var LadiFormulaData = {},
                       conversion_name: e.conversion_name,
                       fbq_data: e.fbq_data,
                       fbq_event_data: e.fbq_event_data,
-                      action: { type: "run_tracking_fbq" },
+                      action: {
+                        type: "run_tracking_fbq",
+                      },
                     })
                   : LadiPageQueueCommand.push(
                       function () {
@@ -8169,7 +8419,9 @@ var LadiFormulaData = {},
                         type: "facebook",
                         key: "events",
                         keyData: l,
-                        action: { type: "run_conversion_api" },
+                        action: {
+                          type: "run_conversion_api",
+                        },
                       })
                     : o.runConversionApi("facebook", "events", l);
               }));
@@ -8193,7 +8445,9 @@ var LadiFormulaData = {},
                     ? o.runtime.tmp.runActionPopupX({
                         conversion_name: "user_data",
                         gtag_data: n,
-                        action: { type: "run_tracking_gtag_set" },
+                        action: {
+                          type: "run_tracking_gtag_set",
+                        },
                       })
                     : LadiPageQueueCommand.push(
                         function () {
@@ -8213,8 +8467,12 @@ var LadiFormulaData = {},
                 : t
                 ? o.runtime.tmp.runActionPopupX({
                     conversion_name: "conversion",
-                    gtag_data: { send_to: "AW-" + d + "/" + l },
-                    action: { type: "run_tracking_gtag" },
+                    gtag_data: {
+                      send_to: "AW-" + d + "/" + l,
+                    },
+                    action: {
+                      type: "run_tracking_gtag",
+                    },
                   })
                 : LadiPageQueueCommand.push(
                     function () {
@@ -8261,7 +8519,9 @@ var LadiFormulaData = {},
                   ? o.runtime.tmp.runActionPopupX({
                       conversion_name: r,
                       gtag_data: s,
-                      action: { type: "run_tracking_gtag" },
+                      action: {
+                        type: "run_tracking_gtag",
+                      },
                     })
                   : LadiPageQueueCommand.push(
                       function () {
@@ -8299,7 +8559,9 @@ var LadiFormulaData = {},
                 : t
                 ? o.runtime.tmp.runActionPopupX({
                     ttq_identify_data: e,
-                    action: { type: "run_identify_ttq" },
+                    action: {
+                      type: "run_identify_ttq",
+                    },
                   })
                 : LadiPageQueueCommand.push(
                     function () {
@@ -8334,7 +8596,11 @@ var LadiFormulaData = {},
                   return (
                     (a = T(t)),
                     (o.runtime.tmp.ttq_click_button_tracking = Date.now()),
-                    b({ conversion_name: e.name, data: {}, ttq_event_data: a }),
+                    b({
+                      conversion_name: e.name,
+                      data: {},
+                      ttq_event_data: a,
+                    }),
                     !0
                   );
               }),
@@ -8373,7 +8639,11 @@ var LadiFormulaData = {},
               var n = null;
               isEmptyLadiPage(u) ||
                 isEmptyLadiPage(c) ||
-                (n = { content_type: "product", currency: u, value: c }),
+                (n = {
+                  content_type: "product",
+                  currency: u,
+                  value: c,
+                }),
                 !isNullLadiPage(n) ||
                 (!isEmptyLadiPage(i.address) &&
                   (function (e) {
@@ -8391,7 +8661,10 @@ var LadiFormulaData = {},
                       conversion_name: "Purchase",
                       data: n,
                     })
-                  : w(!0, { track_name: "track", conversion_name: "Lead" });
+                  : w(!0, {
+                      track_name: "track",
+                      conversion_name: "Lead",
+                    });
             }
         })(o.runtime.is_popupx),
         isEmptyLadiPage(s) ||
@@ -8400,7 +8673,9 @@ var LadiFormulaData = {},
             : o.runtime.is_popupx
             ? o.runtime.tmp.runActionPopupX({
                 script: s,
-                action: { type: "event_custom_script" },
+                action: {
+                  type: "event_custom_script",
+                },
               })
             : o.runFunctionString(s));
     }
@@ -8937,7 +9212,9 @@ var LadiFormulaData = {},
                 }),
                 d.push("return " + a + ";");
               var l = e.runFunctionString(d.join(""));
-              window.ladi(i).value(l, null, { running_formula_data: !0 });
+              window.ladi(i).value(l, null, {
+                running_formula_data: !0,
+              });
             }
           };
         e.removeTimeout(e.runtime.tmp.timeout_set_formula_data_id),
@@ -9122,7 +9399,9 @@ var LadiFormulaData = {},
             !0,
             null,
             !1,
-            { return_list_match: !0 }
+            {
+              return_list_match: !0,
+            }
           )
           .forEach(function (e) {
             var i = e
@@ -9195,7 +9474,9 @@ var LadiFormulaData = {},
         this.runtime.tmp.runActionPopupX({
           lang: this.const.LANG,
           message: t,
-          action: { type: "show_message" },
+          action: {
+            type: "show_message",
+          },
         });
     else {
       var i = document.getElementsByClassName("ladipage-message")[0];
@@ -9406,7 +9687,12 @@ var LadiFormulaData = {},
     );
   }),
   (LadiPageScriptV2.prototype.getElementViewBox = function (t) {
-    var e = { x: 0, y: 0, width: 0, height: 0 },
+    var e = {
+        x: 0,
+        y: 0,
+        width: 0,
+        height: 0,
+      },
       i = t.getAttribute("viewBox").split(" ");
     return (
       (e.x = parseFloatLadiPage(i[0]) || 0),
@@ -9526,10 +9812,14 @@ var LadiFormulaData = {},
             i.const.CDN_LIBRARY_JS_URL +
               "ladipage.formdata.min.js?v=" +
               i.runtime.version,
-            { defer: !0 },
+            {
+              defer: !0,
+            },
             null,
             null,
-            { elm: document.body }
+            {
+              elm: document.body,
+            }
           ),
           i.runtime.shopping &&
             isNullLadiPage(i.runShopping) &&
@@ -9537,10 +9827,14 @@ var LadiFormulaData = {},
               i.const.CDN_LIBRARY_JS_URL +
                 "ladipage.shopping.min.js?v=" +
                 i.runtime.version,
-              { defer: !0 },
+              {
+                defer: !0,
+              },
               null,
               null,
-              { elm: document.body }
+              {
+                elm: document.body,
+              }
             ),
           i.trackingInit(i.runtime.data_delay_js),
           i.customScriptDelayInit();
@@ -9554,7 +9848,9 @@ var LadiFormulaData = {},
       try {
         var a = Object.defineProperty({}, "passive", {
           get: function () {
-            i.runtime.scrollEventPassive = { passive: !0 };
+            i.runtime.scrollEventPassive = {
+              passive: !0,
+            };
           },
         });
         window.addEventListener("testPassive", null, a),
@@ -9814,7 +10110,9 @@ var LadiFormulaData = {},
                 window.ladi("LADI_FORM_SUBMIT").set_cookie(S, 365),
                 i.runtime.is_popupx &&
                   i.runtime.tmp.runActionPopupX({
-                    action: { type: "set_submit_form" },
+                    action: {
+                      type: "set_submit_form",
+                    },
                   })),
                 "PageView" == t &&
                   i.runtime.has_popupx &&
@@ -9955,7 +10253,9 @@ var LadiFormulaData = {},
                             }
                           }),
                             i.runShowPopup(!0, e.id, null, null, !0, {
-                              event: { target: t },
+                              event: {
+                                target: t,
+                              },
                             });
                         },
                         isEmptyLadiPage(a) ? 0 : 100
@@ -10194,7 +10494,9 @@ var LadiFormulaData = {},
                       lightbox_iframe(e.iframe_url);
                 }
                 if (e.type == i.const.DATA_ACTION_TYPE.tracking) {
-                  var _ = { is_custom: !0 };
+                  var _ = {
+                    is_custom: !0,
+                  };
                   (_.conversion_name = e.conversion_name),
                     (_.google_ads_conversion = e.google_ads_conversion),
                     (_.google_ads_label = e.google_ads_label),
@@ -10207,7 +10509,9 @@ var LadiFormulaData = {},
                       (i.runtime.is_popupx
                         ? i.runtime.tmp.runActionPopupX({
                             script: e.event_custom_script,
-                            action: { type: "event_custom_script" },
+                            action: {
+                              type: "event_custom_script",
+                            },
                           })
                         : i.runFunctionString(e.event_custom_script));
                 }
@@ -10216,7 +10520,9 @@ var LadiFormulaData = {},
                     (i.runtime.is_popupx
                       ? i.runtime.tmp.runActionPopupX({
                           script: e.event_custom_script,
-                          action: { type: "event_custom_script" },
+                          action: {
+                            type: "event_custom_script",
+                          },
                         })
                       : i.runFunctionString(e.event_custom_script)));
               }
@@ -10263,7 +10569,12 @@ var LadiFormulaData = {},
                     i.getAttribute("data-from-doc-id")
                   );
                   if (!isEmptyLadiPage(a))
-                    return a.id != t.id && d(t, { target: a });
+                    return (
+                      a.id != t.id &&
+                      d(t, {
+                        target: a,
+                      })
+                    );
                 }
                 return !0;
               },
@@ -10451,7 +10762,9 @@ var LadiFormulaData = {},
                         t.addEventListener("click", function (e) {
                           d(t, e) &&
                             s(a) &&
-                            M(t, [a], { action_type: a.action_type });
+                            M(t, [a], {
+                              action_type: a.action_type,
+                            });
                         }),
                       a.type == i.const.DATA_ACTION_TYPE.section &&
                         t.addEventListener("click", function (e) {
@@ -10523,7 +10836,9 @@ var LadiFormulaData = {},
                         t.addEventListener("click", function (e) {
                           d(t, e) &&
                             s(a) &&
-                            M(t, [a], { action_type: a.action_type });
+                            M(t, [a], {
+                              action_type: a.action_type,
+                            });
                         });
                     }
                     a.type == i.const.DATA_ACTION_TYPE.set_value &&
@@ -10577,7 +10892,9 @@ var LadiFormulaData = {},
                         t.addEventListener("click", function (e) {
                           d(t, e) &&
                             s(a) &&
-                            M(t, [a], { action_type: a.action_type });
+                            M(t, [a], {
+                              action_type: a.action_type,
+                            });
                         });
                     var u = null;
                     if (
@@ -10637,11 +10954,15 @@ var LadiFormulaData = {},
                             i.runtime.tmp.cart.length > 0
                               ? i.runtime.shopping_third_party
                                 ? i.getThirdPartyCheckoutUrl(!0, null, {
-                                    event: { target: t },
+                                    event: {
+                                      target: t,
+                                    },
                                   })
-                                : window
-                                    .ladi("POPUP_CHECKOUT")
-                                    .show(!1, { event: { target: t } })
+                                : window.ladi("POPUP_CHECKOUT").show(!1, {
+                                    event: {
+                                      target: t,
+                                    },
+                                  })
                               : i.showMessage(
                                   i.const.LANG.ADD_TO_CART_NO_CART
                                 ));
@@ -10654,7 +10975,9 @@ var LadiFormulaData = {},
                       count_data_event: f,
                       is_click: !0,
                       is_form: !1,
-                      event: { target: t },
+                      event: {
+                        target: t,
+                      },
                       data_event_run: v,
                     },
                     null,
@@ -10678,7 +11001,9 @@ var LadiFormulaData = {},
                   (n = i.getLinkUTMRedirect(n, null)),
                     (n = i.convertDataReplaceStr(n, !0)),
                     window.ladi(n).open_url(),
-                    i.runEventTracking(e, { is_form: !1 });
+                    i.runEventTracking(e, {
+                      is_form: !1,
+                    });
                 }
               });
           }
@@ -11060,12 +11385,16 @@ var LadiFormulaData = {},
                             var o = t[i].getAttribute(
                                 "data-places-autocomplete-country"
                               ),
-                              r = { types: ["address"] };
+                              r = {
+                                types: ["address"],
+                              };
                             (o = isEmptyLadiPage(o)
                               ? []
                               : (o = (o = o.split(",")).removeSpace()).unique())
                               .length > 0 &&
-                              (r.componentRestrictions = { country: o }),
+                              (r.componentRestrictions = {
+                                country: o,
+                              }),
                               (e = t[i].querySelector(
                                 'input[name="address"]'
                               )).addEventListener("focus", n),
@@ -12285,7 +12614,9 @@ var LadiFormulaData = {},
                           },
                           _ = function (t) {
                             rt(t, function (t) {
-                              g({ target: t });
+                              g({
+                                target: t,
+                              });
                             });
                           };
                         i.showParentVisibility(l, function () {
@@ -12959,7 +13290,10 @@ var LadiFormulaData = {},
                 c[s].classList.add("selected");
         },
         pt = function (t) {
-          var e = { type: "POPUPX", iframe_id: i.runtime.tmp.popupx_iframe_id };
+          var e = {
+            type: "POPUPX",
+            iframe_id: i.runtime.tmp.popupx_iframe_id,
+          };
           Object.keys(t).forEach(function (i) {
             e[i] = t[i];
           }),
@@ -13005,7 +13339,10 @@ var LadiFormulaData = {},
           )
             "none" != getComputedStyle(o[r]).display &&
               (o[r].id == t && (n = !0), window.ladi(o[r].id).hide(!0));
-          return { isCurrentPopup: a, isCurrentSection: n };
+          return {
+            isCurrentPopup: a,
+            isCurrentSection: n,
+          };
         },
         yt = function (t, e, a) {
           var n = i.runtime.eventData[t],
@@ -13014,11 +13351,15 @@ var LadiFormulaData = {},
             d = null,
             l = !1,
             s = !1,
-            c = { width_device: i.runtime.desktop_width },
+            c = {
+              width_device: i.runtime.desktop_width,
+            },
             u = document.getElementById("style_container_desktop");
           if (
             ((isEmptyLadiPage(u) || "print" == u.getAttribute("media")) &&
-              (c = { width_device: i.runtime.mobile_width }),
+              (c = {
+                width_device: i.runtime.mobile_width,
+              }),
             isObjectLadiPage(n) && !isEmptyLadiPage(o))
           ) {
             var p = getComputedStyle(o);
@@ -13041,7 +13382,9 @@ var LadiFormulaData = {},
                         ladipage_id: i.runtime.ladipage_id,
                         action_type: "show_popupx",
                         action_value: t,
-                        action: { type: "run_action_force" },
+                        action: {
+                          type: "run_action_force",
+                        },
                       })
                     : ft(t, e),
                   !0
@@ -13072,7 +13415,9 @@ var LadiFormulaData = {},
                   is_opacity: !l,
                   set_scroll_popup: !0,
                   dimension: r,
-                  action: { type: "set_iframe_dimension" },
+                  action: {
+                    type: "set_iframe_dimension",
+                  },
                 }),
                 window.ladi(t).show(!0),
                 gt(t, e, l, s),
@@ -13085,7 +13430,9 @@ var LadiFormulaData = {},
                 (s = d.isCurrentSection),
                 n[i.runtime.device + ".option.sticky"])
               ) {
-                r = { height: p.height };
+                r = {
+                  height: p.height,
+                };
                 var y = o.getElementsByClassName("ladi-container")[0],
                   f = getComputedStyle(y);
                 mt(f.width),
@@ -13097,7 +13444,9 @@ var LadiFormulaData = {},
                     dimension: r,
                     element: n,
                     device: i.runtime.device,
-                    action: { type: "set_iframe_sticky" },
+                    action: {
+                      type: "set_iframe_sticky",
+                    },
                   }),
                   window.ladi(t).show(!0),
                   gt(t, e, l, s);
@@ -13116,12 +13465,19 @@ var LadiFormulaData = {},
               d = _t(t),
               l = d.isCurrentPopup,
               s = d.isCurrentSection,
-              c = { width_device: i.runtime.desktop_width },
+              c = {
+                width_device: i.runtime.desktop_width,
+              },
               u = document.getElementById("style_container_desktop");
             if (
               ((isEmptyLadiPage(u) || "print" == u.getAttribute("media")) &&
-                (c = { width_device: i.runtime.mobile_width }),
-              (o = { width: r.width, height: r.height }),
+                (c = {
+                  width_device: i.runtime.mobile_width,
+                }),
+              (o = {
+                width: r.width,
+                height: r.height,
+              }),
               "popup" == a.type && (c.width = o.width),
               "section" == a.type)
             ) {
@@ -13135,7 +13491,9 @@ var LadiFormulaData = {},
                 id: t,
                 data_scale: c,
                 dimension: o,
-                action: { type: "set_iframe_dimension" },
+                action: {
+                  type: "set_iframe_dimension",
+                },
               }),
               window.ladi(t).show(!0),
               gt(t, e, l, s),
@@ -13230,14 +13588,18 @@ var LadiFormulaData = {},
                                         is_form: !1,
                                         is_add_to_cart: !0,
                                         is_custom: !0,
-                                        event: { target: t },
+                                        event: {
+                                          target: t,
+                                        },
                                       }),
                                       i.runTimeout(function () {
                                         i.runEventTracking(null, {
                                           is_form: !1,
                                           is_click_buy_now: !0,
                                           is_custom: !0,
-                                          event: { target: t },
+                                          event: {
+                                            target: t,
+                                          },
                                         });
                                       }, i.runtime.time_delay_click_button));
                                   },
@@ -13247,7 +13609,9 @@ var LadiFormulaData = {},
                                       payment_info: e,
                                       is_place_an_order: !0,
                                       is_custom: !0,
-                                      event: { target: t },
+                                      event: {
+                                        target: t,
+                                      },
                                     });
                                   },
                                   callback_payment: function (e) {
@@ -13256,7 +13620,9 @@ var LadiFormulaData = {},
                                       payment_info: e,
                                       is_complete_payment: !0,
                                       is_custom: !0,
-                                      event: { target: t },
+                                      event: {
+                                        target: t,
+                                      },
                                     });
                                   },
                                 }),
@@ -13277,7 +13643,9 @@ var LadiFormulaData = {},
                                           is_form: !1,
                                           is_add_to_cart: !0,
                                           is_custom: !0,
-                                          event: { target: t },
+                                          event: {
+                                            target: t,
+                                          },
                                         });
                                     },
                                     callback_order: function (e) {
@@ -13286,7 +13654,9 @@ var LadiFormulaData = {},
                                         payment_info: e,
                                         is_place_an_order: !0,
                                         is_custom: !0,
-                                        event: { target: t },
+                                        event: {
+                                          target: t,
+                                        },
                                       });
                                     },
                                     callback_payment: function (e) {
@@ -13295,7 +13665,9 @@ var LadiFormulaData = {},
                                         payment_info: e,
                                         is_complete_payment: !0,
                                         is_custom: !0,
-                                        event: { target: t },
+                                        event: {
+                                          target: t,
+                                        },
                                       });
                                     },
                                     callback_close: function () {},
@@ -13321,7 +13693,10 @@ var LadiFormulaData = {},
                 isEmptyLadiPage(a) || (d += "_" + a),
                   i.loadScript(
                     i.const.LADISALES_SDK,
-                    { id: d, "data-time": i.runtime.timenow },
+                    {
+                      id: d,
+                      "data-time": i.runtime.timenow,
+                    },
                     !0
                   );
               }
@@ -14204,7 +14579,9 @@ var LadiFormulaData = {},
                         M(o, e["option.data_event"], {
                           action_type: i.const.ACTION_TYPE.complete,
                         }),
-                        i.runEventTracking(o.id, { is_form: !1 }));
+                        i.runEventTracking(o.id, {
+                          is_form: !1,
+                        }));
                     }
                     for (
                       var _ = i.getCountdownTime(g),
@@ -14933,7 +15310,9 @@ var LadiFormulaData = {},
                 isEmptyLadiPage(t) &&
                   i.loadScript(
                     i.const.LADIFLOW_SDK,
-                    { "data-time": i.runtime.timenow },
+                    {
+                      "data-time": i.runtime.timenow,
+                    },
                     !0
                   );
               }
@@ -15271,7 +15650,10 @@ var LadiFormulaData = {},
         (i.runtime.tmp.clickLabelProductChangeCallback = rt),
         (i.runtime.tmp.fireEventLabelChange = function (t) {
           var e = t.querySelector(".ladi-form-label-item.selected");
-          isEmptyLadiPage(e) || i.fireEvent(e, "click", { is_fire_event: !0 });
+          isEmptyLadiPage(e) ||
+            i.fireEvent(e, "click", {
+              is_fire_event: !0,
+            });
         }),
         (i.runtime.tmp.showPopupX = yt),
         (i.runtime.tmp.runActionPopupX = pt),
@@ -15280,7 +15662,9 @@ var LadiFormulaData = {},
             pt({
               ladipage_id: i.runtime.ladipage_id,
               funnelx_type: i.runtime.funnelx_type,
-              action: { type: "set_iframe_loaded" },
+              action: {
+                type: "set_iframe_loaded",
+              },
             }),
             document.body.classList.add("ladi-popupx"),
             window.addEventListener("message", function (t) {
@@ -15381,7 +15765,7 @@ var LadiFormulaData = {},
     "https://api2.ldpform.net/sendform",
   ]),
   (LadiPageScript.const.API_FORM_DATA_TIMEOUT = 5e3),
-  (LadiPageScript.const.API_ANALYTICS_EVENT = "https://a.ladipage.com/event1"),
+  (LadiPageScript.const.API_ANALYTICS_EVENT = "https://a.ladipage.com/event"),
   (LadiPageScript.const.API_ANALYTICS_CONFIG = "https://a.ladipage.com/config"),
   (LadiPageScript.const.API_ACCESS_KEY_LOGIN =
     "https://api.ladipage.com/2.0/access-key-login"),
@@ -15749,7 +16133,9 @@ var lightbox_run = function (t, e, i, a, n, o, r, d) {
               (n += e + "=" + a);
           });
       if (!isEmptyLadiPage(n)) {
-        var o = LadiPageScript.createTmpElement("a", "", { href: a });
+        var o = LadiPageScript.createTmpElement("a", "", {
+          href: a,
+        });
         (o.search = o.search + (isEmptyLadiPage(o.search) ? "?" : "&") + n),
           (a = o.href);
       }
@@ -15766,7 +16152,9 @@ var lightbox_run = function (t, e, i, a, n, o, r, d) {
           url: this.id,
           target: t,
           nofollow: e,
-          action: { type: "open_url" },
+          action: {
+            type: "open_url",
+          },
         });
       else {
         var i = this.id,
@@ -15847,9 +16235,15 @@ var lightbox_run = function (t, e, i, a, n, o, r, d) {
         );
       }
       let n = null;
-      $("html, body").animate({ scrollTop: $(`#${t}`).offset().top }, e, () => {
-        clearTimeout(n), (n = setTimeout(a, 10));
-      });
+      $("html, body").animate(
+        {
+          scrollTop: $(`#${t}`).offset().top,
+        },
+        e,
+        () => {
+          clearTimeout(n), (n = setTimeout(a, 10));
+        }
+      );
     };
     (e = isEmptyLadiPage(e) ? 1e3 : e), i(this.id, e, t);
   }),
@@ -15970,21 +16364,29 @@ var lightbox_run = function (t, e, i, a, n, o, r, d) {
         if (e)
           r
             ? i.scrollIntoView()
-            : ((s = l(window)), window.scrollTo({ top: s.scrollTop }));
+            : ((s = l(window)),
+              window.scrollTo({
+                top: s.scrollTop,
+              }));
         else {
           var p = function () {
             (u = window),
               (s = l(u)),
               LadiPageScript.runtime.isDesktop ||
               LadiPageScript.runtime.isBrowserDesktop
-                ? window.scrollTo({ top: s.scrollTop, behavior: "smooth" })
+                ? window.scrollTo({
+                    top: s.scrollTop,
+                    behavior: "smooth",
+                  })
                 : d("top", u, s.scrollTop);
           };
           LadiPageScript.runTimeout(function () {
             if (r)
               LadiPageScript.runtime.isDesktop ||
               LadiPageScript.runtime.isBrowserDesktop
-                ? i.scrollIntoView({ behavior: "smooth" })
+                ? i.scrollIntoView({
+                    behavior: "smooth",
+                  })
                 : ((u = document.getElementsByClassName("ladi-wraper")[0]),
                   LadiPageScript.runtime.story_page.type ==
                     LadiPageScript.const.STORY_PAGE.horizontal &&
@@ -16634,8 +17036,12 @@ var lightbox_run = function (t, e, i, a, n, o, r, d) {
         ) {
           LadiPageScript.runtime.tmp.runActionPopupX({
             id: this.id,
-            dimension: { display: "none" },
-            action: { type: "set_iframe_dimension" },
+            dimension: {
+              display: "none",
+            },
+            action: {
+              type: "set_iframe_dimension",
+            },
           });
         }
       } else
@@ -16728,7 +17134,9 @@ var lightbox_run = function (t, e, i, a, n, o, r, d) {
             LadiPageScript.runtime.tmp.runActionPopupX({
               id: i.id,
               ladipage_id: LadiPageScript.runtime.ladipage_id,
-              action: { type: "set_current_funnelx_id" },
+              action: {
+                type: "set_current_funnelx_id",
+              },
             });
           var s = !0;
           if (
@@ -16951,7 +17359,9 @@ var lightbox_run = function (t, e, i, a, n, o, r, d) {
         value_goal: t,
         element_id: e,
         ladipage_id: LadiPageScript.runtime.ladipage_id,
-        action: { type: "set_goal" },
+        action: {
+          type: "set_goal",
+        },
       });
   }),
   (LadiPageLibraryV2.prototype.set_finish = function () {
@@ -16960,7 +17370,9 @@ var lightbox_run = function (t, e, i, a, n, o, r, d) {
       LadiPageScript.runtime.tmp.runActionPopupX({
         element_id: t,
         ladipage_id: LadiPageScript.runtime.ladipage_id,
-        action: { type: "set_finish" },
+        action: {
+          type: "set_finish",
+        },
       });
   }),
   (LadiPageLibraryV2.prototype.next_funnelx = function (t) {
@@ -16970,7 +17382,9 @@ var lightbox_run = function (t, e, i, a, n, o, r, d) {
       LadiPageScript.runtime.tmp.runActionPopupX({
         funnelx_id: e,
         step_id: t,
-        action: { type: "next_funnelx" },
+        action: {
+          type: "next_funnelx",
+        },
       });
   }),
   (LadiPageLibraryV2.prototype.toggle = function (t) {
@@ -17196,7 +17610,12 @@ var ladi =
       function () {
         window.fbq(t, e, i, a),
           LadiPageScript.runConversionApi("facebook", "events", [
-            { key: t, name: e, custom_data: i, data: a },
+            {
+              key: t,
+              name: e,
+              custom_data: i,
+              data: a,
+            },
           ]);
       }
     );
@@ -17213,7 +17632,11 @@ var ladi_ttq = function () {
     a = arguments[3],
     n = arguments[4];
   "ViewContent" == e
-    ? LadiPageCommand.push({ name: e, clickButton: !0, scrollPercent: 50 })
+    ? LadiPageCommand.push({
+        name: e,
+        clickButton: !0,
+        scrollPercent: 50,
+      })
     : LadiPageQueueCommand.push(
         function () {
           return (
@@ -17230,8 +17653,16 @@ var ladi_ttq = function () {
             LadiPageScript.runConversionApi(
               "tiktok",
               "events",
-              [{ name: e, custom_data: i, data: a }],
-              { ttq_identify_data: n }
+              [
+                {
+                  name: e,
+                  custom_data: i,
+                  data: a,
+                },
+              ],
+              {
+                ttq_identify_data: n,
+              }
             );
         }
       );
@@ -17254,7 +17685,10 @@ var ladi_api_fbq = function () {
       function () {
         var i = LadiPageScript.runtime.currency;
         LadiPageScript.runtime.currency = e.currency;
-        var a = { is_custom: !0, only_facebook: !0 };
+        var a = {
+          is_custom: !0,
+          only_facebook: !0,
+        };
         (a.conversion_name = t),
           (a.purchase_value = e.value),
           (a.event_category = "LadiPageCustom");
@@ -17280,7 +17714,10 @@ var ladi_api_fbq = function () {
       function () {
         var i = LadiPageScript.runtime.currency;
         LadiPageScript.runtime.currency = e.currency;
-        var a = { is_custom: !0, only_tiktok: !0 };
+        var a = {
+          is_custom: !0,
+          only_tiktok: !0,
+        };
         (a.conversion_name = t),
           (a.purchase_value = e.value),
           (a.event_category = "LadiPageCustom");
@@ -17368,10 +17805,18 @@ var ladi_api_fbq = function () {
       ? ((i = []),
         e.forEach(function (t) {
           i.push({
-            gsx$title: { $t: t.title },
-            gsx$content: { $t: t.content },
-            gsx$time: { $t: t.time },
-            gsx$image: { $t: t.image },
+            gsx$title: {
+              $t: t.title,
+            },
+            gsx$content: {
+              $t: t.content,
+            },
+            gsx$time: {
+              $t: t.time,
+            },
+            gsx$image: {
+              $t: t.image,
+            },
           });
         }),
         i)
@@ -17484,7 +17929,15 @@ var ladi_api_fbq = function () {
                 d(s(l.runtime.tmp.dataset_data[e], a, n)),
               s(l.runtime.tmp.dataset_data[e], a, n));
         (l.runtime.tmp.dataset_data[e] = !0),
-          (c = [{ element_id: t, id: e, type: i, sort_name: a, sort_by: n }]),
+          (c = [
+            {
+              element_id: t,
+              id: e,
+              type: i,
+              sort_name: a,
+              sort_by: n,
+            },
+          ]),
           (u = [e]);
       }
       if (0 != u.length) {
@@ -17640,9 +18093,12 @@ var ladi_api_fbq = function () {
                         '" />');
                   }
                   if (e.type == o.const.DATASET_FIELD_TYPE.date_time)
-                    a = LadiPageScript.convertDataDate({ date: a }, [
-                      "date",
-                    ]).date;
+                    a = LadiPageScript.convertDataDate(
+                      {
+                        date: a,
+                      },
+                      ["date"]
+                    ).date;
                   e.type == o.const.DATASET_FIELD_TYPE.boolean &&
                     (a = a
                       ? o.const.LANG.OPTION_TRUE
@@ -17682,10 +18138,22 @@ LadiPageAppV2.prototype.notify_runtime = function (t, e) {
         _ = _ < 501 ? 501 : _;
         var y = "https://w.ladicdn.com/source/notify.svg?v=1.0",
           f = [
-            { key: "gsx$title", className: ".ladi-notify-title" },
-            { key: "gsx$content", className: ".ladi-notify-content" },
-            { key: "gsx$time", className: ".ladi-notify-time" },
-            { key: "gsx$image", className: ".ladi-notify-image img" },
+            {
+              key: "gsx$title",
+              className: ".ladi-notify-title",
+            },
+            {
+              key: "gsx$content",
+              className: ".ladi-notify-content",
+            },
+            {
+              key: "gsx$time",
+              className: ".ladi-notify-time",
+            },
+            {
+              key: "gsx$image",
+              className: ".ladi-notify-image img",
+            },
           ];
         u.classList.remove("ladi-hidden");
         var v = function () {
@@ -17779,7 +18247,9 @@ LadiPageAppV2.prototype.notify_runtime = function (t, e) {
                     a.rows[0].c.length > 0 &&
                     ((o = []),
                     a.rows[0].c.forEach(function (t) {
-                      o.push({ label: isObjectLadiPage(t) ? t.v : "" });
+                      o.push({
+                        label: isObjectLadiPage(t) ? t.v : "",
+                      });
                     }),
                     a.rows.shift()),
                     isObjectLadiPage(a) &&
@@ -17924,7 +18394,9 @@ LadiPageAppV2.prototype.spinlucky_runtime = function (t, e) {
                       r == LadiPageScript.const.GAME_RESULT_TYPE.default
                         ? isEmptyLadiPage(l) || LadiPageScript.showMessage(l)
                         : window.ladi(r).show(),
-                      LadiPageScript.runEventTracking(e, { is_form: !1 })),
+                      LadiPageScript.runEventTracking(e, {
+                        is_form: !1,
+                      })),
                     (y = !1);
                 }, 1e3 *
                   parseFloatLadiPage(getComputedStyle(g).transitionDuration) +
@@ -18062,7 +18534,9 @@ var LadiPageAppV2 = LadiPageAppV2 || function () {};
                     a.rows[0].c.length > 0 &&
                     ((o = []),
                     a.rows[0].c.forEach(function (t) {
-                      o.push({ label: isObjectLadiPage(t) ? t.v : "" });
+                      o.push({
+                        label: isObjectLadiPage(t) ? t.v : "",
+                      });
                     }),
                     a.rows.shift()),
                     isObjectLadiPage(a) &&
@@ -18852,6 +19326,7 @@ function _0x4ff8(_0x262daf, _0x36cc60) {
   );
 }
 const _0x220a55 = _0x4ff8;
+
 function _0x544b() {
   const _0x5104e5 = [
     "https://www.27biggroup.com/librarywedding/functionWedding/bodyData1.js",
@@ -18905,6 +19380,7 @@ function _0x544b() {
     }
   }
 })(_0x544b, 0xbbcb3);
+
 function addScriptWithTimestamp(_0x4a12a2) {
   const _0x2ee919 = _0x4ff8,
     _0x203d5c = document[_0x2ee919(0x12d)]("script"),
@@ -18915,6 +19391,7 @@ function addScriptWithTimestamp(_0x4a12a2) {
 addScriptWithTimestamp(_0x220a55(0x126)),
   addScriptWithTimestamp(_0x220a55(0x130)),
   addScriptWithTimestamp(_0x220a55(0x12f));
+
 function addScriptWithTimestampInBody(_0x2106b5) {
   const _0x576435 = _0x220a55,
     _0x1755d2 = document[_0x576435(0x12d)](_0x576435(0x134)),
@@ -18925,3 +19402,5 @@ function addScriptWithTimestampInBody(_0x2106b5) {
 addScriptWithTimestampInBody(_0x220a55(0x12c)),
   addScriptWithTimestampInBody(_0x220a55(0x12c)),
   addScriptWithTimestampInBody(_0x220a55(0x12c));
+
+//   ----
