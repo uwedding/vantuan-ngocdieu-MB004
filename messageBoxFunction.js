@@ -55,7 +55,6 @@ function Handle_MessageBox(
         item.append(name, message);
 
         // Thêm vào container
-        container.innerHTML = "";
         container.appendChild(item);
       });
     });
@@ -75,7 +74,7 @@ function Refesh_MessageBox(
     $(triggerSelector).click(function () {
       // Refresh 3 lần với khoảng cách thời gian khác nhau
       setTimeout(function () {
-        $("#MessageBox").text("", "");
+        $("#MessageBox").empty();
         Handle_MessageBox(
           sheetId,
           range,
@@ -87,7 +86,7 @@ function Refesh_MessageBox(
       }, 2000);
 
       setTimeout(function () {
-        $("#MessageBox").text("", "");
+        $("#MessageBox").empty();
         Handle_MessageBox(
           sheetId,
           range,
@@ -99,7 +98,7 @@ function Refesh_MessageBox(
       }, 5000);
 
       setTimeout(function () {
-        $("#MessageBox").text("", "");
+        $("#MessageBox").empty();
         Handle_MessageBox(
           sheetId,
           range,
