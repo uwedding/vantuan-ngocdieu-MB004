@@ -34,9 +34,10 @@ function Handle_MessageBox(
       const getMessage = messages.filter(
         (msg) => msg["Ai thấy lời chúc"] === "Mọi người"
       );
+
       const container = document.getElementById("MessageBox");
 
-      getMessage.reverse().map((msg) => {
+      getMessage?.reverse().map((msg) => {
         // Tạo khung chứa message item
         const item = document.createElement("div");
         item.classList.add("MessageBox-item");
