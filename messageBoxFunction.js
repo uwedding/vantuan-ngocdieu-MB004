@@ -35,7 +35,6 @@ function Handle_MessageBox(
         (msg) => msg["Ai thấy lời chúc"] === "Mọi người"
       );
       const container = document.getElementById("MessageBox");
-      container.innerHTML = "";
 
       getMessage.reverse().map((msg) => {
         // Tạo khung chứa message item
@@ -56,6 +55,7 @@ function Handle_MessageBox(
         item.append(name, message);
 
         // Thêm vào container
+        container.innerHTML = "";
         container.appendChild(item);
       });
     });
